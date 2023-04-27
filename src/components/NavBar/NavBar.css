@@ -1,0 +1,40 @@
+nav {
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 4.5rem;
+}
+
+.links {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5rem;
+    height: 2rem;
+
+}
+
+#name-nav {
+    position: absolute;
+    left: 0;
+    margin-left: 2rem;
+}
+
+ul, li {
+    padding-left: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+nav > ul > li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: background-color 0.3s ease-out;
+  }
+
+#contact-nav {
+    padding-right: 0.5rem;
+    margin-right: 1.5rem;
+}
