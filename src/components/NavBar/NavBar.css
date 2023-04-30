@@ -1,11 +1,11 @@
 nav {
-    background-color: aquamarine;
+    background: linear-gradient(to right, #0f4c81, #328cc1);
     position: sticky;
     top: 0;
     left: 0;
     display: flex;
     justify-content: flex-end;
-    height: 4.5rem;
+    height: 5.5rem;
 }
 
 .links {
@@ -13,8 +13,7 @@ nav {
     text-decoration: none;
     list-style-type: none;
     font-size: 1.5rem;
-    height: 2rem;
-
+    height: 3.1rem;
 }
 
 #name-nav {
@@ -26,6 +25,7 @@ nav {
 ul, li {
     padding-left: 0.5rem;
     margin-left: 2.5rem;
+    margin-top: .85rem;
 }
 
 nav > ul > li:hover {
@@ -36,5 +36,9 @@ nav > ul > li:hover {
 
 #contact-nav {
     padding-right: 0.5rem;
-    margin-right: 1.5rem;
+    margin-right: 1.2rem;
+}
+
+i {
+    margin-right: .5rem;
 }
