@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.efef7704.css",
+    "main.js": "/portfolio/static/js/main.3318c468.js",
+    "static/media/audiofy-pic.PNG": "/portfolio/static/media/audiofy-pic.775ce7e58fa867c63747.PNG",
+    "static/media/poke-clicker-pic.PNG": "/portfolio/static/media/poke-clicker-pic.917d600d1c325842d414.PNG",
+    "static/media/eeveepedia-pic.PNG": "/portfolio/static/media/eeveepedia-pic.338d3003501fedafebc1.PNG",
+    "static/media/nonobananas-pic.jpg": "/portfolio/static/media/nonobananas-pic.e003e50270979bec3dc0.jpg",
+    "static/media/pic.jfif": "/portfolio/static/media/pic.ec5da440da73450751bd.jfif",
+    "index.html": "/portfolio/index.html",
+    "main.efef7704.css.map": "/portfolio/static/css/main.efef7704.css.map",
+    "main.3318c468.js.map": "/portfolio/static/js/main.3318c468.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efef7704.css",
+    "static/js/main.3318c468.js"
+  ]
+}
