@@ -14,7 +14,6 @@ function App() {
       <NavBar element={NavBar} />
       <HomePage element={HomePage} /> 
       <Projects element={Projects} />
-      <Resume element={Resume} />
       <Contact element={Contact} />
     </main>
   );

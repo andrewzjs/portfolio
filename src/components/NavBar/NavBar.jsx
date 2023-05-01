@@ -8,25 +8,25 @@ export default function() {
                 <ul className='links'>
                     <li id="name-nav"> andrewsantos.ca </li>
                     <li id="home-nav">
-                        <Link to="home" smooth={true} duration={1000}>
+                        <Link class="link" to="home" smooth={true} duration={800} offset={-220}>
                         <i className="fa fa-home nav-icon" aria-hidden="true" /> 
                         home 
                         </Link>
                     </li>
                     <li id="project-nav">
-                        <Link to="projects" smooth={true} duration={1000}>
+                        <Link to="projects" smooth={true} duration={800} offset={-100}>
                         <i class="fas fa-project-diagram" /> 
                         Projects
                         </Link>
                     </li>
                     <li id="resume-nav">
-                        <Link to="resume" smooth={true} duration={1000}>
+                        <a href="https://drive.google.com/uc?id=1MMzy9ReYc7XJJ4XfV8Ed0f5nWNlKbGDq&export=download" smooth={true} duration={800} style={{textDecoration: "none", color: "white"}}>
                         <i class="fa-solid fa-file" />
                         Resume
-                        </Link>
+                        </a>
                     </li>
                     <li id="contact-nav">
-                        <Link to="contacts" smooth={true} duration={1000}>
+                        <Link to="contact" smooth={true} duration={800}>
                         <i class="fa-solid fa-address-book" />
                         Contact
                         </Link>

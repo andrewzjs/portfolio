@@ -1,12 +1,14 @@
 nav {
-    background: linear-gradient(to right, #0f4c81, #328cc1);
-    position: sticky;
+    background: linear-gradient(to right, rgba(15, 76, 129, 0.8), rgba(50, 140, 193, 0.8));
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
     justify-content: flex-end;
     height: 5.5rem;
-}
+    width: 100%;
+    z-index: 999;
+  }
 
 .links {
     display: flex;
@@ -14,6 +16,7 @@ nav {
     list-style-type: none;
     font-size: 1.5rem;
     height: 3.1rem;
+    
 }
 
 #name-nav {

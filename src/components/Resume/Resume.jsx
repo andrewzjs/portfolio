@@ -1,7 +1,5 @@
-import './Resume.css'
-
 export default function Resume() {
     return(
-        <h1> Resume </h1>
+        <h1>hi</h1>
     )
 }
