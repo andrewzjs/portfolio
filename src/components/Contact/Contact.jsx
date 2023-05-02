@@ -15,7 +15,7 @@ export default function Contact(){
             <Link class="intro3 animated" to="home" smooth={true} duration={800} offset={-100}>
                     <i class="fa-solid fa-angle-up" id ="home-up" style={{fontSize: "260%"}}></i>
             </Link>
-            <p>Scroll to Top</p>
+            <p>Scroll to Topp</p>
         </section>
     )
 }
