@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5f571718.css",
-    "main.js": "/static/js/main.d00e7b07.js",
+    "main.js": "/static/js/main.8e0c514d.js",
     "static/media/audiofy-pic.PNG": "/static/media/audiofy-pic.775ce7e58fa867c63747.PNG",
     "static/media/poke-clicker-pic.PNG": "/static/media/poke-clicker-pic.917d600d1c325842d414.PNG",
     "static/media/eeveepedia-pic.PNG": "/static/media/eeveepedia-pic.338d3003501fedafebc1.PNG",
@@ -9,10 +9,10 @@
     "static/media/pic.jfif": "/static/media/pic.ec5da440da73450751bd.jfif",
     "index.html": "/index.html",
     "main.5f571718.css.map": "/static/css/main.5f571718.css.map",
-    "main.d00e7b07.js.map": "/static/js/main.d00e7b07.js.map"
+    "main.8e0c514d.js.map": "/static/js/main.8e0c514d.js.map"
   },
   "entrypoints": [
     "static/css/main.5f571718.css",
-    "static/js/main.d00e7b07.js"
+    "static/js/main.8e0c514d.js"
   ]
 }
