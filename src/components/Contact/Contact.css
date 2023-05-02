@@ -25,3 +25,20 @@
 .icons-container > a > i:hover {
     font-size: 5.2rem;
 }
+
+@keyframes updown {
+    0% {
+      transform: translateY(-8%);
+    }
+    50% {
+      transform: translateY(8%);
+    }
+    100% {
+      transform: translateY(-8%);
+    } 
+  }
+
+  #home-up {
+    padding-top: 5rem;
+    animation: updown 1.8s infinite
+}

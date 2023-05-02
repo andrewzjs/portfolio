@@ -1,14 +1,16 @@
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .project-preview {
-  width: 85%;
+  width: 80%;
   max-width: 100%;
   height: auto;
   padding: 10px;
+  padding-bottom: 0;
   display: flex;
   margin: 0 auto;
   margin-top: 1rem;
@@ -16,16 +18,36 @@
 }
 
 .project-tile {
-  width: 48%;
+  width: 40%;
   text-decoration: none;
   color: white;
   display: inline-block;
-  margin: 0 auto;
+  margin: 0 1rem;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  
 }
+
+.project-tile > ul {
+  display: flex;
+  justify-content: center;
+  max-height: 80px;
+  padding-left: 0;
+  padding-right: .35rem;
+  flex-wrap: wrap; /* Add this property to allow the items to wrap */
+}
+
+.project-tile > ul > li {
+  list-style-type: none;
+  border: solid black;
+  border-radius: 1rem;
+  margin: 10px;
+  padding: 8px;
+  font-size: 1.3rem;
+}
+
 
 .project-tile:hover {
   scale: 101%;
@@ -36,7 +58,9 @@
 }
 
 .project-tile > p {
-  padding: 0 2rem;
+  padding: 0 3rem;
+  padding-left: 5rem;
+  text-align: left;
 }
 
 .project-tile > ul {

@@ -1,4 +1,5 @@
 import './Contact.css'
+import { Link } from 'react-scroll';
 
 export default function Contact(){
     return(
@@ -11,6 +12,10 @@ export default function Contact(){
                 <a href="https://github.com/andrewzjs" target="_blank"><i class="fa-brands fa-github" style={{paddingRight: "4rem"}}></i></a>
                 <a href="https://instagram.com/andrew.jsph?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
+            <Link class="intro3 animated" to="home" smooth={true} duration={800} offset={-100}>
+                    <i class="fa-solid fa-angle-up" id ="home-up" style={{fontSize: "260%"}}></i>
+            </Link>
+            <p>Scroll to Top</p>
         </section>
     )
 }

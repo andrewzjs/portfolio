@@ -19,7 +19,7 @@ export default function HomePage(){
                     </Link>  with me 
                 </p>
                 <Link class="intro3 animated" to="projects" smooth={true} duration={800} offset={-100}>
-                    <i class="fa-solid fa-arrow-down" id ="home-down"></i>
+                    <i class="fa-solid fa-angle-down" id ="home-down" style={{fontSize: "260%"}}></i>
                 </Link>
             </div>
         </section>
