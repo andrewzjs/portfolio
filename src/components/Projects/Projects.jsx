@@ -40,7 +40,7 @@ export default function Projects() {
                     <p>Audiofy is a music listening app designed so that listeners can enjoy their favourite music. Through the apps’s interface, users can maintain their own collection of music, listen, like/dislike songs, and add them to playlists.</p>
                     <p>Developers: Andrew Santos, Derrick Hua, Lara Livera, and Aggrey Ellis</p>
                     <h3>Tech Stack</h3>
-                    <ul>
+                    <ul style={{marginLeft: "0"}}>
                         <li><i class="fa-brands fa-python"></i>Python</li>
                         <li>Django</li>
                         <li>PostgresQL</li>
