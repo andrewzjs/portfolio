@@ -12,7 +12,7 @@ export default function Projects() {
             <div class = "projects-container">
                 <div class = "project-tile animated">
                     <img class = "project-preview" src={project4} />
-                    <h2>PokeClicker    <a href="https://github.com/andrewzjs/poke-clicker" target="_blank">
+                    <h2>PokéClicker    <a href="https://github.com/andrewzjs/poke-clicker" target="_blank">
                         <i class="fa-brands fa-github"></i>
                         </a>
                     <a href="https://poke-clicker.herokuapp.com/" target="_blank">

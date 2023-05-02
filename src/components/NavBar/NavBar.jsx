@@ -20,7 +20,7 @@ export default function() {
                         </Link>
                     </li>
                     <li id="resume-nav">
-                        <a href="https://drive.google.com/uc?id=1MMzy9ReYc7XJJ4XfV8Ed0f5nWNlKbGDq&export=download" smooth={true} duration={800} style={{textDecoration: "none", color: "white"}}>
+                        <a href="https://drive.google.com/u/0/uc?id=1XL0bPZBlmFd6PvZkO6TGWa0oCz8UWAYr&export=download" smooth={true} duration={800} style={{textDecoration: "none", color: "white"}}>
                         <i class="fa-solid fa-file" />
                         Resume
                         </a>
